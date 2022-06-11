@@ -1,0 +1,79 @@
+/* основний колір текста #757575 */
+/* вторичний колір текста #212121 */
+/* білий #FFFFFF */
+/* герой і футер background: #2F303A */
+/* основний background: #E5E5E5 */
+/* команда background: #F5F4FA */
+/* хедер background: #FFFFFF*/
+
+:root {
+    --primery-text-color: #757575;
+    --title-text-coloc: #212121;
+    --accent-color: #2196F3;
+    --primery-white-coloc: #FFFFFF;
+    --titel-background-color: #2F303A;
+    --secondary-background-color: #F5F4FA;
+    --body-background-color: #E5E5E5;
+    --black: #000000;
+}
+
+
+body {
+    background-color: var(--body-background-color);
+    color: var(--primery-text-color);
+    font-family: Roboto, sans-serif;
+}
+
+/* logo*/
+
+.logo {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-title {
+    color: var(--black);
+}
+
+/* хедер*/
+
+.header {
+    background-color: var(--primery-white-coloc);
+    text-decoration: none;
+}
+
+.header-nav .link {
+    color: var(--title-text-coloc);
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.header-nav .link.current {
+    color: var(--accent-color);
+}
+
+.header-contacts {
+    color: var(--title-text-coloc);
+}
+
+.header-contacts:hover {
+    color: var(--accent-color);
+}
+
+/*футер*/
+
+.map {
+color: var(--primery-white-coloc);
+}
+
+.contacts > .footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+

@@ -1,0 +1,77 @@
+
+.list{
+    list-style: none;
+}
+
+.site-header {
+    background-color: var(--primery-white-coloc);
+}
+
+
+/*герой*/
+
+.hero {
+    background-color: var(--titel-background-color);
+}
+
+.hero.title{
+    color: var(--primery-white-coloc);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button {
+    color: var(--primery-white-coloc);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--title-text-coloc);
+    background-color: var(--secondary-background-color);
+}
+
+/* переваги*/
+
+.title{
+    color: var(--title-text-coloc);
+}
+
+/* about*/
+
+.section-title{
+    color: var(--title-text-coloc);
+}
+
+/*команда*/
+
+.team-list{
+    background-color: var(--secondary-background-color);
+}
+
+.footer{
+    background-color: var(--titel-background-color);
+}
+
+
+/* Портфоліо*/
+
+
+/* кнопки */
+
+.button.secondary {
+    color: var(--title-text-coloc);
+    background-color: var(--secondary-background-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--primery-white-coloc);
+    background-color: var(--accent-color);
+}
