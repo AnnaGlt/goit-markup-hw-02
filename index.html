@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./common.css" />
     <link rel="stylesheet" href="./main.css" />
   </head>
@@ -11,24 +17,26 @@
   <body>
     <!--секція хедер-->
     <header class="header">
-      <a href="/" class="logo">Web<span class="logo-title">Studio</span></a>
+      <a href="/" class="logo link"
+        >Web<span class="logo-title">Studio</span></a
+      >
 
       <nav>
         <ul class="header-nav list">
-          <li class="link current"><a href="./index.html">Студия</a></li>
-          <li class="link"><a href="./portfolio.html">Портфолио</a></li>
-          <li class="link"><a href="Контакты">Контакты</a></li>
+          <li><a class="link current" href="./index.html">Студия</a></li>
+          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link" href="Контакты">Контакты</a></li>
         </ul>
       </nav>
 
       <ul class="header-contacts list">
         <li>
-          <a class="header-contacts" href="mailto:info@devstudio.com"
+          <a class="header-contacts link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="header-contacts" href="tel:+380961111111"
+          <a class="header-contacts link" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
         </li>
@@ -99,23 +107,23 @@
         <ul class="team list">
           <li>
             <img src="./img/1.jpg" alt="портрет Игоря" width="270" />
-            <h3 class="title">Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="title-smaller">Игорь Демьяненко</h3>
+            <p class="p-team">Product Designer</p>
           </li>
           <li>
             <img src="./img/2.jpg" alt="портрет Ольги" width="270" />
-            <h3 class="title">Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="title-smaller">Ольга Репина</h3>
+            <p class="p-team">Frontend Developer</p>
           </li>
           <li>
             <img src="./img/3.jpg" alt="портрет Николая" width="270" />
-            <h3 class="title">Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="title-smaller">Николай Тарасов</h3>
+            <p class="p-team">Marketing</p>
           </li>
           <li>
             <img src="./img/4.jpg" alt="портрет Михаила" width="270" />
-            <h3 class="title">Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="title-smaller">Михаил Ермаков</h3>
+            <p class="p-team">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -123,13 +131,15 @@
 
     <!--сексія Футер-->
     <footer class="footer">
-      <a href="/" class="logo">Web<span class="logo-title">Studio</span></a>
+      <a href="/" class="logo link"
+        >Web<span class="logo-title">Studio</span></a
+      >
       <address class="map">Киев, пр-т Леси Украинки, 26</address>
       <address class="contacts">
-        <a class="footer-contacts" href="mailto:info@devstudio.com"
+        <a class="footer-contacts link" href="mailto:info@devstudio.com"
           >info@devstudio.com</a
         >
-        <a class="footer-contacts" href="tel:+380961111111"
+        <a class="footer-contacts link" href="tel:+380961111111"
           >+38 096 111 11 11</a
         >
       </address>

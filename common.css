@@ -25,53 +25,92 @@
 }
 
 .button {
+    font-family: inherit;
     color: var(--primery-white-coloc);
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
+    line-height: 18,8;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-    color: var(--title-text-coloc);
-    background-color: var(--secondary-background-color);
+    background-color: transparent;
 }
 
 /* переваги*/
 
 .title{
     color: var(--title-text-coloc);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    text-transform: uppercase;
 }
 
 /* about*/
 
 .section-title{
     color: var(--title-text-coloc);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /*команда*/
+
+.title-smaller {
+    color: var(--title-text-coloc);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 .team-list{
     background-color: var(--secondary-background-color);
 }
 
-.footer{
-    background-color: var(--titel-background-color);
+.p-team {
+    font-size: 16px;
+    line-height: 1,19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 
 /* Портфоліо*/
 
+.portfolio {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 
 /* кнопки */
 
 .button.secondary {
+    font-family: inherit;
     color: var(--title-text-coloc);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
     background-color: var(--secondary-background-color);
+
 }
 
-.button.secondary:hover,
-.button.secondary:focus {
+.button-secondary:hover,
+.button-secondary:focus {
     color: var(--primery-white-coloc);
     background-color: var(--accent-color);
 }
