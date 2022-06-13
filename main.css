@@ -16,7 +16,7 @@
     --body-background-color: #E5E5E5;
     --black: #000000;
     --main-font: Roboto;
-    --secondary-font: inherit;
+    --secondary-font: Raleway;
 }
 
 
@@ -25,27 +25,24 @@ body {
     color: var(--primery-text-color);
     font-family: var(--main-font), sans-serif;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
 }
 
-/* logo*/
+/* хедер*/
 
-.header>.logo,
-.footer>.logo {
+.header>.logo {
     display: flex;
     color: var(--accent-color);
-    font-family: var(--main-font), sans-serif;
+    font-family: var(--secondary-font), sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
-.logo-title {
+.header .logo-title {
     color: var(--black);
 }
-
-/* хедер*/
 
 .header {
     background-color: var(--primery-white-coloc);
@@ -55,7 +52,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     color: var(--title-text-coloc);
 }
 
@@ -72,7 +69,7 @@ body {
     color: var(--primery-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
 }
 
 .header-contacts:hover {
@@ -81,15 +78,33 @@ body {
 
 /*футер*/
 
-.map {
-color: var(--primery-white-coloc);
+.footer>.logo {
+    font-family: var(--secondary-font), sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
+
+.footer .logo-title {
+    color: var(--primery-white-coloc);
 }
 
 .footer {
+    color: var(--primery-white-coloc);
     background-color: var(--titel-background-color);
+    font-style: normal;
 }
 
-.contacts > .footer-contacts {
-    color: var(--primery-text-color);
+address {
+    font-style: normal;
 }
+
+.contacts> .footer-contacts{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
 
