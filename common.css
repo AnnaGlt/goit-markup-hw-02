@@ -101,7 +101,7 @@ color: var(--primery-white-coloc);
 
 /* кнопки */
 
-.button.secondary {
+.button-secondary {
     font-family: var(--main-font), sans-serif;
     color: var(--title-text-coloc);
     font-weight: 500;
